@@ -6,7 +6,11 @@ function about() {
         <section class="pt-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-9">
+                    <div>
+                        <h1>Nirajan Bekoju</h1>
+                        <div>
+                            <img src={portfolioImage} alt="Portfolio image" style={{ float: "right" }} />
+                        </div>
                         <p class="text-justify">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                             the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
@@ -25,10 +29,27 @@ function about() {
                             and more recently with desktop publishing software like Aldus PageMaker including versions of
                             Lorem Ipsum.
                         </p>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions of
+                            Lorem Ipsum.
+                        </p>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions of
+                            Lorem Ipsum.
+                        </p>
                     </div>
-                    <div class="col-md-3">
-                        <img src={portfolioImage} alt="Portfolio image"/>
-                    </div>
+                    <div style={{clear:"both"}}></div>
+
                     <div class="col-md-12 text-center">
                         <a href="mailto:nirajan.bekoju@gmail.com" target="_blank" class="mr3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
