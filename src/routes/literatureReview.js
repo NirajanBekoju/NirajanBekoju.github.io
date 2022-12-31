@@ -15,8 +15,8 @@ function literatureReview() {
     },
     {
       "title": "A Neural Probabilistic Language Model",
-      "tag": ["Statistical language modeling", "artificial neural networks", "distributed representation",
-"curse of dimensionality"],
+      "tag": ["Statistical language modeling", "Artificial neural networks", "Distributed representation",
+"Curse of dimensionality"],
       "description": "A goal of statistical language modeling is to learn the joint probability function of sequences of words. This is intrinsically difficult because of the curse of dimensionality: we propose to fight it with its own weapons. In the proposed approach one learns simultaneously (1) a distributed representation for each word (i.e. a similarity between words) along with (2) the probability function for word sequences, expressed with these repre  sentations. Generalization is obtained because a sequence of words that has never been seen before gets high probability if it is made of words that are similar to words forming an already seen sentence. We report on experiments using neural networks for the probability function, showing on two text corpora that the proposed approach very significantly improves on a state-of-the-art trigram model.",
       "review_link": NPLM,
       "original_link" : "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf",
