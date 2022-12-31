@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 const ProjectDisplay = ({ project }) => {
     const displaykeywords = (keywords) => {
@@ -16,14 +15,16 @@ const ProjectDisplay = ({ project }) => {
     return (
         <div>
             <h2>{project.title}</h2>
-            <div>
+            <div className='pb-3'>
                 <span className='font-weight-bold'>Keywords : </span>
                 {displaykeywords(project.keywords)}
             </div>
-            <div className='pt-3 pb-3'>
+            {project.description ? <div className='pt-2 pb-3'>
                 {project.description}
-            </div>
-            <a href={project.document_link} className="btn btn-primary">Github Repository</a>
+            </div> : ""}
+            
+            {project.github_link ? <a href={project.github_link} className="btn btn-primary mr3" target="_blank">Github Repository</a> : ""}
+            {project.document_link ? <a href={project.document_link} className="btn btn-success" target="_blank">Project Report</a> : ""}
             <hr />
         </div>
     )
