@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const ReviewDisplay = ({review}) => {
+const ReviewDisplay = ({ review }) => {
     const displaykeywords = (keywords) => {
         let result = [];
 
-        for(let i = 0; i < keywords.length; i++){
+        for (let i = 0; i < keywords.length; i++) {
             result.push(
-                <span className='pr-3'>{keywords[i]}</span>
+                <span className='bg-info text-dark mr3 p-1' style={{borderRadius: "10px"}}>{keywords[i]}</span>
             )
         }
 
@@ -16,16 +16,21 @@ const ReviewDisplay = ({review}) => {
 
     return (
         <div>
-            <h1>{review.title}</h1>
+            <h2>{review.title}</h2>
+
             <div>
+                <span className='font-weight-bold'>Keywords : </span>
                 {displaykeywords(review.tag)}
             </div>
-            <div>
+            
+            <div className='pt-3 pb-3'>
                 {review.description}
             </div>
-            <a href = {review.review_link}>Review Link</a><br/>
-            <a href = {review.original_link}>Original Paper</a>
-            <hr/>
+
+            <a href={review.original_link} className="btn btn-primary mr3">Original Paper</a>
+            <a href={review.review_link} className="btn btn-success">Review</a>
+
+            <hr />
         </div>
     )
 }

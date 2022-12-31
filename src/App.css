@@ -44,3 +44,21 @@
 .mr3{
   margin-right: 8px;
 }
+
+ml3{
+  margin-left: 3px;
+}
+
+.font-weight-bold{
+  font-weight: 700;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

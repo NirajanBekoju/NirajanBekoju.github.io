@@ -7,6 +7,7 @@ import About from "./routes/about";
 import Blog from './routes/blog';
 
 import Navbar from './component/navBar';
+import Footer from './component/footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/lr" element={<LiteratureReview />} />
         <Route exact path="/blogs" element={<Blog />} />
       </Routes>
+      <Footer />
     </>
   );
 }
