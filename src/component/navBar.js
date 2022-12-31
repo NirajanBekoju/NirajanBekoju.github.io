@@ -24,6 +24,9 @@ const Navbar = () => {
                         <li class="nav-item">
                             <Link class="nav-link" to="/blogs">Blogs</Link>
                         </li>
+                        <li class="nav-item">
+                            <Link class="nav-link" to="/repositories">Repositories</Link>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <a href="mailto:nirajan.bekoju@gmail.com" target="_blank" class="mr3 socialMediaLink">
