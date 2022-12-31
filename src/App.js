@@ -1,9 +1,9 @@
 import './App.css';
 import { Routes, Route} from "react-router-dom";
-import About from "./routes/About";
-import Careers from "./routes/Careers";
-import Home from "./routes/Home";
-import Navbar from './Navbar';
+import About from "./routes/about";
+import Careers from "./routes/blog";
+import Home from "./routes/home";
+import Navbar from './component/Navbar';
 function App() {
   return (
     <>
