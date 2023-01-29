@@ -51,7 +51,6 @@ const projects = () => {
                 <div className='project'>{display[i]}</div>
             )
         }
-        console.log("result : ", result);
         return result;
     }
 
