@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/projects" element={<Project />} />
         <Route exact path="/lr" element={<LiteratureReview />} />
         {/* <Route exact path="/achievements" element={<Achievement />} /> */}
-        <Route exact path="/repositories" element={<Repository />} />
+        {/* <Route exact path="/repositories" element={<Repository />} /> */}
       </Routes>
       <Footer />
     </>

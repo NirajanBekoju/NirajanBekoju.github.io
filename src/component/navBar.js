@@ -24,9 +24,9 @@ const Navbar = () => {
                         {/* <li className="nav-item">
                             <Link className="nav-link" to="/achievements">Achievements</Link>
                         </li> */}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/repositories">Repositories</Link>
-                        </li>
+                        </li> */}
                     </ul>
                     <form className="d-flex" role="search">
                         <a href="mailto:nirajan.bekoju@gmail.com" target="_blank" className="mr3 socialMediaLink">
