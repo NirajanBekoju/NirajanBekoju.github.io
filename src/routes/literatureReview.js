@@ -3,6 +3,7 @@ import ReviewDisplay from '../component/reviewDisplay';
 
 import Attenton from '../assets/lr/attention_is_all_you_need.pdf';
 import NPLM from '../assets/lr/nplm.pdf'
+import NSR_CTC from '../assets/lr/nsr_using_cnn_ctc.pdf'
 
 function literatureReview() {
   const review_list = [
@@ -20,7 +21,15 @@ function literatureReview() {
       "description": "A goal of statistical language modeling is to learn the joint probability function of sequences of words. This is intrinsically difficult because of the curse of dimensionality: we propose to fight it with its own weapons. In the proposed approach one learns simultaneously (1) a distributed representation for each word (i.e. a similarity between words) along with (2) the probability function for word sequences, expressed with these repre  sentations. Generalization is obtained because a sequence of words that has never been seen before gets high probability if it is made of words that are similar to words forming an already seen sentence. We report on experiments using neural networks for the probability function, showing on two text corpora that the proposed approach very significantly improves on a state-of-the-art trigram model.",
       "review_link": NPLM,
       "original_link" : "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf",
-    }
+    },
+    {
+      "title": "Nepali Speech Recognition Using CNN, GRU, and CTC",
+      "tag": ["Nepali Speech Recognition", "Automatic Speech Recognition", "Gated Recurrent Unit (GRU)", "Convolution Neural Network (CNN)"],
+      "description": "Communication is an important part of life. To use communication technology efficiently we need to know how to use them or how to instruct these devices to perform tasks. Automatic speech recognition plays an important role in interaction with the technology. Nepali speech recognition involves in conversion of Nepali speech to its correct Nepali transcriptions. The purposed model consists of CNN, GRU and CTC network. The feature in the raw audio is extracted by using MFCC algorithm. CNN is for learning high level features. GRU is responsible for constructing the acoustic model. CTC is responsible for decoding. The dataset consists of 18 female speakers. It is provided by Open Speech and Language Resources. The build model can predict the with the WER of 11%.",
+      "review_link": NSR_CTC,
+      "original_link" : "https://aclanthology.org/2020.rocling-1.23.pdf",
+    },
+    // 
   ];
 
   const displayReview = () => {

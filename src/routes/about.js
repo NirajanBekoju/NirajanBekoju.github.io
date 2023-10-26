@@ -88,13 +88,16 @@ function about() {
           </div>
         </div>
       </div>
+
+      {/* About Me */}
       <div className="container aboutme">
         <div className="row">
-          <div className="col-md-9">
+          <div className="col-md-12 text-center pb-4">
             <h1 className="greeting" style={{ color: "#9B4819" }}>
               About Me
             </h1>
-
+          </div>
+          <div className="col-md-9">
             <p class="text-justify">
               As a computer engineering student, I have an interest in linear
               algebra, multi-variable calculus, probability, and statistics.
@@ -122,10 +125,7 @@ function about() {
             </p>
           </div>
 
-          <div
-            className="col-md-3"
-            style={{ marginTop: "7rem", marginBottom: "10rem" }}
-          >
+          <div className="col-md-3">
             <div className="circular-image-container">
               <img
                 src={portfolioImage}
@@ -137,6 +137,7 @@ function about() {
           </div>
         </div>
       </div>
+
     </section>
   );
 }
