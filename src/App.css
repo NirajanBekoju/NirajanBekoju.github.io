@@ -64,8 +64,16 @@ ml3{
 }
 
 /* Navigation Bar */
+.head-name{
+  font-family: 'Radley', serif;
+}
+
 .nav-link-item{
   font-size: 24px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: #9B4819;
 }
 
 /* About */
