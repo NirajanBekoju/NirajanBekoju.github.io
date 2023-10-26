@@ -3,6 +3,7 @@ import ProjectDisplay from '../component/projectDisplay'
 
 import nepaliLM from '../assets/project_pdf/nepali_lm.pdf';
 import FTD from "../assets/project_pdf/Fourier_transform_drawing.pdf";
+import ATC_PRS from "../assets/project_pdf/Arxiv Topic Classification and Paper Recommendation SYSTEM.pdf"
 
 const projects = () => {
     const projectsList = [
@@ -13,6 +14,14 @@ const projects = () => {
             "document_link" : nepaliLM,
             "github_link" : "https://github.com/NirajanBekoju/Nepali-Language-Processing",
         },
+        {
+            "title": "Arxiv-Topic-Classification-and-Paper-Recommendation-System",
+            "keywords": ["NLP", "Tensorflow", "Transformer", "Word Embeddings", "Django", "React"],
+            "description": "In today’s information-rich world, scientific publications play a pivotal role in disseminating knowledge and advancing research across various disciplines. The exponential growth of digital repositories, such as arXiv, has made it increasingly challenging for researchers to keep up with the vast volume of available literature. To address this challenge, we propose a novel approach that harnesses the power of Kaggle datasets for arXiv paper topic classification and builds a robust recommendation system.",
+            "document_link" : ATC_PRS,
+            "github_link" : "https://github.com/NirajanBekoju/Arxiv-Topic-Classification-and-Paper-Recommendation-System",
+        },
+
         {
             "title" : "Wine Quality Classification",
             "keywords" : ["Wine Quality", "Data Analysis", "Machine Learning", "Random Forest", "Django"],
