@@ -66,6 +66,7 @@ ml3{
 /* Navigation Bar */
 .head-name{
   font-family: 'Radley', serif;
+  color: rgb(155, 72, 2);
 }
 
 .nav-link-item{
