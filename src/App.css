@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@1&display=swap');
+
 .App {
   text-align: center;
 }
@@ -57,16 +59,46 @@ ml3{
   text-align: center;
 }
 
-.footer{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
 .pl0{
   padding-left: 0px!important;
 }
 
-.socialMediaLink{
-  color: white!important;
+/* Navigation Bar */
+.nav-link-item{
+  font-size: 24px;
 }
+
+/* About */
+.greeting{
+  font-family: 'Radley', serif;
+  font-size: 86px;
+}
+
+.greeting-designation{
+  font-family: 'Radley', serif;
+  font-size: 50px;
+  color: #db9065;
+}
+
+.social-media{
+  height: 50px;
+  width: 50px;
+}
+
+.button {
+  color: black;
+  padding: 16px 30px 16px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: 'arial', serif;
+  font-weight: bold;
+}
+
+.aboutme{
+  margin-top: 28vh;
+}
+
