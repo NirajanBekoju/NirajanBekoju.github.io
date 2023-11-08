@@ -4,6 +4,7 @@ import ReviewDisplay from '../component/reviewDisplay';
 import Attenton from '../assets/lr/attention_is_all_you_need.pdf';
 import NPLM from '../assets/lr/nplm.pdf'
 import NSR_CTC from '../assets/lr/nsr_using_cnn_ctc.pdf'
+import ST_transformer from '../assets/lr/st_transformer_cslr.pdf'
 
 function literatureReview() {
   const review_list = [
@@ -28,6 +29,13 @@ function literatureReview() {
       "description": "Communication is an important part of life. To use communication technology efficiently we need to know how to use them or how to instruct these devices to perform tasks. Automatic speech recognition plays an important role in interaction with the technology. Nepali speech recognition involves in conversion of Nepali speech to its correct Nepali transcriptions. The purposed model consists of CNN, GRU and CTC network. The feature in the raw audio is extracted by using MFCC algorithm. CNN is for learning high level features. GRU is responsible for constructing the acoustic model. CTC is responsible for decoding. The dataset consists of 18 female speakers. It is provided by Open Speech and Language Resources. The build model can predict the with the WER of 11%.",
       "review_link": NSR_CTC,
       "original_link" : "https://aclanthology.org/2020.rocling-1.23.pdf",
+    },
+    {
+      "title": "Spatial–temporal transformer for end-to-end sign language recognition",
+      "tag": ["Spatial–temporal encoder",  "Continuous sign language recognition", "Transformer",  "Patched image"],
+      "description": "Continuous sign language recognition (CSLR) is an essential task for communication between hearing-impaired and people without limitations, which aims at aligning low-density video sequences with high-density text sequences. The current methods for CSLR were mainly based on convolutional neural networks. However, these methods perform poorly in balancing spatial and temporal features during visual feature extraction, making them difficult to improve the accuracy of recognition. To address this issue, we designed an end-to-end CSLR network: Spatial–Temporal Transformer Network (STTN). The model encodes and decodes the sign language video as a predicted sequence that is aligned with a given text sequence. First, since the image sequences are too long for the model to handle directly, we chunk the sign language video frames, i.e., ”image to patch”, which reduces the computational complexity. Second, global features of the sign language video are modeled at the beginning of the model, and the spatial action features of the current video frame and the semantic features of consecutive frames in the temporal dimension are extracted separately, giving rise to fully extracting visual features. Finally, the model uses a simple cross-entropy loss to align video and text. We extensively evaluated the proposed network on two publicly available datasets, CSL and RWTH-PHOENIX-Weather multi-signer 2014 (PHOENIX-2014), which demonstrated the superior performance of our work in CSLR task compared to the state-of-the-art methods.",
+      "review_link": ST_transformer,
+      "original_link" : "https://link.springer.com/article/10.1007/s40747-023-00977-w#:~:text=Spatial%E2%80%93temporal%20transformer%20networks%20for%20sign%20language%20recognition&text=where%20X%2C%20Y%20represent%20the,Network%20(STTN)%20for%20CSLR.",
     },
     // 
   ];
