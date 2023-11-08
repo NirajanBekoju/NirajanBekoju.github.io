@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.8a96e488.css",
-    "main.js": "/static/js/main.5315abfc.js",
+    "main.js": "/static/js/main.aa024dc4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/nepali_lm.pdf": "/static/media/nepali_lm.bfbcfbd33cc3da8f6aad.pdf",
     "static/media/Arxiv Topic Classification and Paper Recommendation SYSTEM.pdf": "/static/media/Arxiv Topic Classification and Paper Recommendation SYSTEM.d1fbbbfb324104a79968.pdf",
     "static/media/Fourier_transform_drawing.pdf": "/static/media/Fourier_transform_drawing.f422395467e26cb9875d.pdf",
+    "static/media/st_transformer_cslr.pdf": "/static/media/st_transformer_cslr.795c3b60f00854a17eb3.pdf",
     "static/media/attention_is_all_you_need.pdf": "/static/media/attention_is_all_you_need.b4788e7b60c1f05d4728.pdf",
     "static/media/nsr_using_cnn_ctc.pdf": "/static/media/nsr_using_cnn_ctc.23a83eeece72aee54b85.pdf",
     "static/media/nplm.pdf": "/static/media/nplm.e312d8a3556a701d79ba.pdf",
@@ -13,11 +14,11 @@
     "static/media/resume.pdf": "/static/media/resume.b31b0b3603fbc33bb326.pdf",
     "index.html": "/index.html",
     "main.8a96e488.css.map": "/static/css/main.8a96e488.css.map",
-    "main.5315abfc.js.map": "/static/js/main.5315abfc.js.map",
+    "main.aa024dc4.js.map": "/static/js/main.aa024dc4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a96e488.css",
-    "static/js/main.5315abfc.js"
+    "static/js/main.aa024dc4.js"
   ]
 }
