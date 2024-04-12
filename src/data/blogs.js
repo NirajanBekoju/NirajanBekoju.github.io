@@ -1,6 +1,7 @@
 import solidImage from "../assets/blogs/solid.png";
 import designPattern from "../assets/blogs/design_pattern.png"
 import factoryDesignPattern from "../assets/blogs/factory_design_pattern.png"
+import singletonDesignPattern from "../assets/blogs/singleton_design_pattern.png"
 
 const blogsList = [
   {
@@ -23,6 +24,13 @@ const blogsList = [
     description:
       "The factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created.",
     link: "https://nirajanbekoju.notion.site/Factory-Design-Pattern-a0fb4d82ef464d628b523db2ab49b29b?pvs=4",
+  },
+  {
+    image: singletonDesignPattern,
+    title: "Singleton Design Pattern",
+    description:
+      "Singleton is a creational design pattern that lets you ensure that a class has only one instance while providing a global access point to this instance.",
+    link: "https://nirajanbekoju.notion.site/Singleton-Design-Pattern-e5fe67d5ff6e41e4a87d2dd755fb3253",
   },
 ];
 
