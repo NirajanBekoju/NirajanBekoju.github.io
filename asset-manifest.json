@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30c77969.css",
-    "main.js": "/static/js/main.ba8b76bb.js",
+    "main.js": "/static/js/main.fbc968e2.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/nepali_lm.pdf": "/static/media/nepali_lm.bfbcfbd33cc3da8f6aad.pdf",
     "static/media/solid.png": "/static/media/solid.a8f5b48a1394265ed323.png",
@@ -9,17 +9,19 @@
     "static/media/Fourier_transform_drawing.pdf": "/static/media/Fourier_transform_drawing.f422395467e26cb9875d.pdf",
     "static/media/st_transformer_cslr.pdf": "/static/media/st_transformer_cslr.795c3b60f00854a17eb3.pdf",
     "static/media/attention_is_all_you_need.pdf": "/static/media/attention_is_all_you_need.b4788e7b60c1f05d4728.pdf",
+    "static/media/factory_design_pattern.png": "/static/media/factory_design_pattern.e1ed0e7b2398cabbf1c2.png",
+    "static/media/design_pattern.png": "/static/media/design_pattern.d0057bc6c6bda78afde3.png",
     "static/media/nsr_using_cnn_ctc.pdf": "/static/media/nsr_using_cnn_ctc.23a83eeece72aee54b85.pdf",
     "static/media/nplm.pdf": "/static/media/nplm.e312d8a3556a701d79ba.pdf",
     "static/media/pp.png": "/static/media/pp.b8d5dbb74ab4fb1b7c15.png",
     "static/media/resume.pdf": "/static/media/resume.a7f09621db5c8e134b78.pdf",
     "index.html": "/index.html",
     "main.30c77969.css.map": "/static/css/main.30c77969.css.map",
-    "main.ba8b76bb.js.map": "/static/js/main.ba8b76bb.js.map",
+    "main.fbc968e2.js.map": "/static/js/main.fbc968e2.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30c77969.css",
-    "static/js/main.ba8b76bb.js"
+    "static/js/main.fbc968e2.js"
   ]
 }
