@@ -1,14 +1,15 @@
 import solidImage from "../assets/blogs/solid.png";
-import designPattern from "../assets/blogs/design_pattern.png"
-import factoryDesignPattern from "../assets/blogs/factory_design_pattern.png"
-import singletonDesignPattern from "../assets/blogs/singleton_design_pattern.png"
+import designPattern from "../assets/blogs/design_pattern.png";
+import factoryDesignPattern from "../assets/blogs/factory_design_pattern.png";
+import singletonDesignPattern from "../assets/blogs/singleton_design_pattern.png";
+import pylint from "../assets/blogs/pylint.png";
 
 const blogsList = [
   {
     image: solidImage,
     title: "SOLID Design Pattern",
     description:
-      "The SOLID principles are a set of five design principles that help software developers create more maintainable, flexible, and understandable code.",
+      "The SOLID principles are a set of five design principles that help software developers create more maintainable, and understandable code.",
     link: "https://nirajanbekoju.notion.site/SOLID-Design-Pattern-aa2ba26142294521b9f40346c020249a?pvs=4",
   },
   {
@@ -31,6 +32,13 @@ const blogsList = [
     description:
       "Singleton is a creational design pattern that lets you ensure that a class has only one instance while providing a global access point to this instance.",
     link: "https://nirajanbekoju.notion.site/Singleton-Design-Pattern-e5fe67d5ff6e41e4a87d2dd755fb3253",
+  },
+  {
+    image: pylint,
+    title: "Analyze python code with pylint",
+    description:
+      "Pylint is a static code analyzer for Python 2 or 3. Pylint analyses your code without actually running it.",
+    link: "https://nirajanbekoju.notion.site/Improving-the-code-quality-with-linting-in-python-25b55d0db275491e9869942ca8d220a9",
   },
 ];
 
