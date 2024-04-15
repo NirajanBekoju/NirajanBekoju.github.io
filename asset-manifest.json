@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.30c77969.css",
-    "main.js": "/static/js/main.99573002.js",
+    "main.js": "/static/js/main.610b904f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/nepali_lm.pdf": "/static/media/nepali_lm.bfbcfbd33cc3da8f6aad.pdf",
     "static/media/solid.png": "/static/media/solid.a8f5b48a1394265ed323.png",
     "static/media/Arxiv Topic Classification and Paper Recommendation SYSTEM.pdf": "/static/media/Arxiv Topic Classification and Paper Recommendation SYSTEM.d1fbbbfb324104a79968.pdf",
     "static/media/Fourier_transform_drawing.pdf": "/static/media/Fourier_transform_drawing.f422395467e26cb9875d.pdf",
     "static/media/st_transformer_cslr.pdf": "/static/media/st_transformer_cslr.795c3b60f00854a17eb3.pdf",
+    "static/media/pylint.png": "/static/media/pylint.988d7ff0a4d1dbd5f9bf.png",
     "static/media/attention_is_all_you_need.pdf": "/static/media/attention_is_all_you_need.b4788e7b60c1f05d4728.pdf",
     "static/media/factory_design_pattern.png": "/static/media/factory_design_pattern.e1ed0e7b2398cabbf1c2.png",
     "static/media/singleton_design_pattern.png": "/static/media/singleton_design_pattern.5ab815ff31e03b669674.png",
@@ -18,11 +19,11 @@
     "static/media/resume.pdf": "/static/media/resume.a7f09621db5c8e134b78.pdf",
     "index.html": "/index.html",
     "main.30c77969.css.map": "/static/css/main.30c77969.css.map",
-    "main.99573002.js.map": "/static/js/main.99573002.js.map",
+    "main.610b904f.js.map": "/static/js/main.610b904f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30c77969.css",
-    "static/js/main.99573002.js"
+    "static/js/main.610b904f.js"
   ]
 }
