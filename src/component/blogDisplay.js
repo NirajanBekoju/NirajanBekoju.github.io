@@ -5,7 +5,7 @@ const BlogDisplay = ({ blog }) => {
     <div>
       <div class="card mb-4">
         <a href={blog.link} target="_blank">
-          <img src={blog.image} alt="Avatar" width="100%" />
+          <img src={blog.image} alt={blog.title} width="100%" />
         </a>
         <div class="container-card p-3 m-2">
           <h4>

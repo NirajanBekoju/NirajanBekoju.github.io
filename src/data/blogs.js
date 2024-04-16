@@ -3,8 +3,23 @@ import designPattern from "../assets/blogs/design_pattern.png";
 import factoryDesignPattern from "../assets/blogs/factory_design_pattern.png";
 import singletonDesignPattern from "../assets/blogs/singleton_design_pattern.png";
 import pylint from "../assets/blogs/pylint.png";
+import logging from "../assets/blogs/logging.png"
 
 const blogsList = [
+  {
+    image: pylint,
+    title: "Analyze python code with pylint",
+    description:
+      "Pylint is a static code analyzer for Python 2 or 3. Pylint analyses your code without actually running it.",
+    link: "https://nirajanbekoju.notion.site/Improving-the-code-quality-with-linting-in-python-25b55d0db275491e9869942ca8d220a9",
+  },
+  {
+    image: logging,
+    title: "Logging in Python",
+    description:
+      "Logging in Python is a crucial aspect of software development, particularly for debugging, monitoring, and understanding the flow of your program.",
+    link: "https://nirajanbekoju.notion.site/Logging-in-Python-c650d14288cb48378a844af7c0891be0",
+  },
   {
     image: solidImage,
     title: "SOLID Design Pattern",
@@ -32,13 +47,6 @@ const blogsList = [
     description:
       "Singleton is a creational design pattern that lets you ensure that a class has only one instance while providing a global access point to this instance.",
     link: "https://nirajanbekoju.notion.site/Singleton-Design-Pattern-e5fe67d5ff6e41e4a87d2dd755fb3253",
-  },
-  {
-    image: pylint,
-    title: "Analyze python code with pylint",
-    description:
-      "Pylint is a static code analyzer for Python 2 or 3. Pylint analyses your code without actually running it.",
-    link: "https://nirajanbekoju.notion.site/Improving-the-code-quality-with-linting-in-python-25b55d0db275491e9869942ca8d220a9",
   },
 ];
 
