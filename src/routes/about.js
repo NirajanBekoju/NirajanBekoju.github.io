@@ -53,7 +53,7 @@ function about() {
               </a>
 
               <a
-                href="https://www.instagram.com/nirajanbekoju/"
+                href="https://www.instagram.com/nirajan_bekoju/"
                 target="_blank"
                 className="mr3 socialMediaLink"
               >
