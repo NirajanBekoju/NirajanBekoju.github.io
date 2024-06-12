@@ -1,30 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.30c77969.css",
-    "main.js": "/static/js/main.1e6e7c0e.js",
+    "main.js": "/static/js/main.f653359c.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/nepali_lm.pdf": "/static/media/nepali_lm.bfbcfbd33cc3da8f6aad.pdf",
     "static/media/solid.png": "/static/media/solid.a8f5b48a1394265ed323.png",
     "static/media/Arxiv Topic Classification and Paper Recommendation SYSTEM.pdf": "/static/media/Arxiv Topic Classification and Paper Recommendation SYSTEM.d1fbbbfb324104a79968.pdf",
     "static/media/Fourier_transform_drawing.pdf": "/static/media/Fourier_transform_drawing.f422395467e26cb9875d.pdf",
+    "static/media/learning_to_rank.png": "/static/media/learning_to_rank.c399ac53926c49c8e6e0.png",
     "static/media/st_transformer_cslr.pdf": "/static/media/st_transformer_cslr.795c3b60f00854a17eb3.pdf",
     "static/media/pylint.png": "/static/media/pylint.988d7ff0a4d1dbd5f9bf.png",
     "static/media/attention_is_all_you_need.pdf": "/static/media/attention_is_all_you_need.b4788e7b60c1f05d4728.pdf",
+    "static/media/sequential_rec_sys.png": "/static/media/sequential_rec_sys.2d724ffb2dc604c65136.png",
     "static/media/factory_design_pattern.png": "/static/media/factory_design_pattern.e1ed0e7b2398cabbf1c2.png",
     "static/media/singleton_design_pattern.png": "/static/media/singleton_design_pattern.5ab815ff31e03b669674.png",
     "static/media/logging.png": "/static/media/logging.c88befb13d7238d625c5.png",
     "static/media/design_pattern.png": "/static/media/design_pattern.d0057bc6c6bda78afde3.png",
+    "static/media/recbole.png": "/static/media/recbole.2840f1b7209567b317b0.png",
     "static/media/nsr_using_cnn_ctc.pdf": "/static/media/nsr_using_cnn_ctc.23a83eeece72aee54b85.pdf",
     "static/media/nplm.pdf": "/static/media/nplm.e312d8a3556a701d79ba.pdf",
     "static/media/pp.png": "/static/media/pp.b8d5dbb74ab4fb1b7c15.png",
     "static/media/resume.pdf": "/static/media/resume.a7f09621db5c8e134b78.pdf",
     "index.html": "/index.html",
     "main.30c77969.css.map": "/static/css/main.30c77969.css.map",
-    "main.1e6e7c0e.js.map": "/static/js/main.1e6e7c0e.js.map",
+    "main.f653359c.js.map": "/static/js/main.f653359c.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30c77969.css",
-    "static/js/main.1e6e7c0e.js"
+    "static/js/main.f653359c.js"
   ]
 }
